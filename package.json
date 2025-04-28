@@ -1,12 +1,12 @@
 {
-"name": "web-pair",
+"name": "KAVIYA-MD_V1.0",
     "version": "0.0.1",
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name vajira-md",
-      "stop": "pm2 stop vajira-md",
-     "restart": "pm2 restart vajira-md"
+      "start": "pm2 start index.js --deep-monitoring --attach --name kaviya-md",
+      "stop": "pm2 stop kaviya-md",
+     "restart": "pm2 restart kaviya-md"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",              
