@@ -13,7 +13,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-    async function GIFTED_MD_PAIR_CODE() {
+    async function KAVIYA_MD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -80,7 +80,7 @@ var randomItem = selectRandomItem(items);
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴠᴀᴊɪʀᴀ-ᴍᴅ",
+title: "KAVIYA-MD",
 thumbnailUrl: "https://telegra.ph/file/e069027c2178e2c7475c9.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VadExMQHwXb9GtsC1A24",
 mediaType: 1,
@@ -96,7 +96,7 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴠᴀᴊɪʀᴀ-ᴍᴅ",
+title: "KAVIYA-MD",
 thumbnailUrl: "https://telegra.ph/file/e069027c2178e2c7475c9.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VadExMQHwXb9GtsC1A24",
 mediaType: 2,
@@ -115,7 +115,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    GIFTED_MD_PAIR_CODE();
+                    KAVIYA_MD_PAIR_CODE();
                 }
             });
         } catch (err) {
